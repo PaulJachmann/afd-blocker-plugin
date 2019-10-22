@@ -8,6 +8,7 @@ let blocker = new Blocker([
         selector: '.card.instant-wiki.search-item',
         type: 'big'
     },
+    
     {
         selector: '.search-result',
         type: 'small'
@@ -16,7 +17,25 @@ let blocker = new Blocker([
         selector: '.search-item',
         type: 'small'
     },
-
+    /*www.google.com*/
+    {
+        selector: '.g',
+        type: 'small'
+    },
+    /*www.bing.com*/
+    {
+        selector: '.nws_cwrp',
+        type: 'small'
+    },
+    
+    {
+        selector: '.b_clearfix b_overflow',
+        type: 'small'
+    },
+    {
+        selector: '.b_algo',
+        type: 'big'
+    },
     /* www.qwant.com */
     {
         selector: '.result.result--web',
